@@ -1,0 +1,72 @@
+/*
+    Página web 29/04/2024
+    Elaborado por Ricardo Daniel Hernández Sosa (PlansVsAngry999)
+*/
+
+    /*Fuentes*/
+@font-face {
+    font-family:'monse' ;
+    src: url("Monse.ttf");
+}
+@font-face {
+    font-family:'quick' ;
+    src: url("quick.ttf");
+}
+    /*Etiquetas*/
+body{
+    background-color: #323232;
+    min-height: 100vh;
+    overflow: hidden;
+}
+h2{
+    color:white;
+    font-family: 'quick';
+}
+input{
+    background-color: #323232;
+    color: white;
+}
+button{
+    background-color: #3c74ad;
+    color: white;
+    border-radius: 5%;
+    border: 0;
+    font-family: 'quick';
+}
+p{
+    color: white;
+    font-family: 'quick';
+}
+    /*Clases*/
+.bReset{
+    background-color: #d26060;
+}
+.container{
+    margin: 0;
+    text-align: center;
+}
+.parraDiv{
+        /*Posicionar*/
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+        /*Estilizar*/
+    border-radius: 5%;
+    border: 0;
+    font-family: 'monse';
+}
+    .parrafo{
+        font-size: 100px;
+        text-decoration: dashed;
+        text-decoration-color: #deac66;
+        color: white;
+    }
+    /*Identificadores*/
+    /*Hover's*/
+button:hover{
+    background-color: #deac66;
+    color: white;
+    border-radius: 5%;
+    border: 0;
+    font-family: 'monse';
+}
